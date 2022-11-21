@@ -1,0 +1,25 @@
+.home{
+    height: 90vh;
+    object-fit: cover;
+}
+
+@media (max-width: 480px) {
+    .home{
+        height: 30vh;
+        object-fit: cover;
+    }
+  }
+
+@media only screen and (min-device-width: 880px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .home{
+        height: 10vh;
+        object-fit: cover;
+    }    
+  }
+
+@media (max-width: 900px) {
+    .home{
+        height: 50vh;
+        object-fit: cover;
+    }  
+  }
