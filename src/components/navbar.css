@@ -1,0 +1,25 @@
+#logo {
+    height: 100%;
+    width: 10vh;
+    object-fit: cover;
+    cursor: pointer;
+  }
+#logo1 {
+    height: 100%;
+    width: 30vh;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+.icon{
+  font-size: 2rem;
+}
+
+@media (max-width: 900px) {
+  #logo1 {
+    height: 50%;
+    width: 60vh;
+    object-fit: cover;
+    cursor: pointer;
+  }
+}
