@@ -17,6 +17,12 @@ h3{
         height: 30vh;
         object-fit: cover;
     }
+    h3{
+        font-size: 2rem;
+    }
+    .sp{
+        font-size: 1rem;
+    }
   }
 
 @media only screen and (min-device-width: 880px) and (max-device-width: 1024px) and (orientation: landscape) {

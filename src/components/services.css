@@ -2,6 +2,8 @@
     object-fit: cover;
 }
 
-p{
-    font-size: 0.1rem !important;
-}
+@media (max-width: 480px) {
+    .hh{
+        font-size: 0.2rem !important;
+    }
+  }
