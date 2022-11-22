@@ -16,7 +16,7 @@ const Contact = () => {
                     <div className="row">
                         <div className="col-lg-12 text-center">
                             <h2 className="section-heading text-uppercase">Contactez-Nous</h2>
-                            <h3 className="section-subheading text-muted">Vous avez besoins des services de Jiskobou, ou tout simplement en
+                            <h3 className="section-subheading text-muted sp">Vous avez besoins des services de Jiskobou, ou tout simplement en
             savoir plus !?</h3>
                         </div>
                     </div>

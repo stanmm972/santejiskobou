@@ -3,6 +3,15 @@
     object-fit: cover;
 }
 
+h3{
+    font-size: 4rem;
+    color: #e1c283;
+}
+
+.sp{
+    font-size: 2rem;
+}
+
 @media (max-width: 480px) {
     .home{
         height: 30vh;

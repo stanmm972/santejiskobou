@@ -17,7 +17,7 @@ const Banner = () => {
         />
         <Carousel.Caption>
           <h3>Bienvenue à Jiskobou</h3>
-          <p>Le paradigme des soins.</p>
+          <p className='sp'>Le paradigme des soins.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>

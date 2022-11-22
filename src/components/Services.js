@@ -48,12 +48,12 @@ const Services = () => {
                 </Row>
                 <Row>
                     
-                        <h5 className='py-5 text-center' style={{fontSize:'1.3rem'}}>
+                        <h4 className='py-5 text-center'>
                             Notre équipe est composée de ressources triées sur le volet afin
                             de satisfaire aux plus hauts standards de l'industrie. <br />
                             Parmi les ressources disponibles avec notre agence afin de
                             supporter adéquatement vos équipes déjà en place.
-                        </h5>
+                        </h4>
                     
                 </Row>           
                 <Row>               
