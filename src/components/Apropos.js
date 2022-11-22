@@ -7,7 +7,7 @@ import pic6 from "../assets/pic6.jpg";
 const Apropos = () => {
   return (
     <>
-        <section>
+        <section id='apropos'>
             <Row>
                 <Col>
                     

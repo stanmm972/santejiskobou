@@ -12,10 +12,10 @@ const Header = () => {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav className="ml-auto">
-            <Nav.Link href="#action1">À propos de nous</Nav.Link>
-            <Nav.Link href="#action2">Services et Emploi</Nav.Link>
-            <Nav.Link href="#action3">Contactez nous</Nav.Link>
-            <Nav.Link href="#action3">Jiskobou Portail (Membre uniquement)</Nav.Link>
+            <Nav.Link href="#apropos">À propos de nous</Nav.Link>
+            <Nav.Link href="#service">Services et Emploi</Nav.Link>
+            <Nav.Link href="#contact">Contactez nous</Nav.Link>
+            <Nav.Link href="https://jiskobou-ws.herokuapp.com">Jiskobou Portail (Membre uniquement)</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

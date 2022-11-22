@@ -6,7 +6,7 @@ import "./mission.css";
 
 const Mission = () => {
   return (
-    <section className='mission'>
+    <section className='mission' id='service'>
         <Container>
         <div className='text-center py-5'>
                 <h1>Notre mission</h1>

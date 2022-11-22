@@ -7,7 +7,7 @@ import phone from "../assets/phone.png";
 const Contact = () => {
   return (
     <>
-        <section className='contact'>
+        <section className='contact' id='contact'>
             <Container>
             <Row>
                 <Col>
