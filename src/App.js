@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Banner from './components/Banner';
 import {Container} from 'react-bootstrap';
 import Apropos from './components/Apropos';
+import Mission from './components/Mission';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Container>
           <Apropos/>
         </Container>
+        <Mission/>
       </main>
     </>
   );
