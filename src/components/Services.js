@@ -1,6 +1,8 @@
 import React from 'react'
 import {Card, CardGroup, Row, Col, Button, Nav} from 'react-bootstrap';
-
+import Zoom from 'react-reveal/Zoom';
+import Slide from 'react-reveal/Slide';
+import Flip from 'react-reveal/Flip';
 import Pdf from "../documents/formulaire_d_emploi.pdf";
 import photo3 from "../assets/photo3.png";
 import photo4 from "../assets/photo4.png";
@@ -21,40 +23,40 @@ const Services = () => {
             <div>
                 <Row className='py-5'>
                     <Col style={{ width: 300, height: 100 }} md={2} sm={12}>
-                        
+                        <Slide left>
                             <img src={ser1} alt="service" />
-                        
+                        </Slide>
                     </Col>
                     <Col style={{ width: 300, height: 100 }} md={2} sm={12}>
-                        
+                        <Slide left>   
                             <img src={ser2} alt="service" />
-                        
+                        </Slide>
                     </Col>
                     <Col style={{ width: 300, height: 100 }} md={2} sm={12}>
-                        
+                        <Slide top>
                             <img src={ser3} alt="service" />
-                        
+                        </Slide>
                     </Col>
                     <Col style={{ width: 300, height: 100 }} md={2} sm={12}>
-                        
+                        <Slide right>
                             <img src={ser4} alt="service" />
-                        
+                        </Slide>
                     </Col>
                     <Col style={{ width: 300, height: 100 }} md={2} sm={12}>
-                        
+                        <Slide right>
                             <img src={ser5} alt="service" />
-                        
+                        </Slide>
                     </Col>
                 </Row>
                 <Row>
-                    
+                    <Zoom bottom>
                         <h4 className='py-5 text-center hh'>
                             Notre équipe est composée de ressources triées sur le volet afin
                             de satisfaire aux plus hauts standards de l'industrie. <br />
                             Parmi les ressources disponibles avec notre agence afin de
                             supporter adéquatement vos équipes déjà en place.
                         </h4>
-                    
+                    </Zoom>
                 </Row>           
                 <Row>               
                         <CardGroup className='text-center'>
@@ -87,7 +89,7 @@ const Services = () => {
                 </div>
                 <Row>
                     <Col>
-                        
+                        <Flip top>
                             <Card border="dark" style={{ width: '18rem' }}>
                                 <Card.Header>Débutez une carrière chez Santé Jiskobou</Card.Header>
                                 <Card.Body>
@@ -104,10 +106,10 @@ const Services = () => {
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
-                        
+                        </Flip>
                     </Col>
                     <Col>
-                        
+                        <Flip>
                             <Card border="dark" style={{ width: '18rem' }}>
                                 <Card.Header className='text-center'>Vous êtes déjà un membre</Card.Header>
                                 <Card.Body>
@@ -116,7 +118,7 @@ const Services = () => {
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
-                        
+                        </Flip>
                     </Col>
                 </Row>
             </div>

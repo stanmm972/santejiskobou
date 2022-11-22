@@ -1,6 +1,6 @@
 import React from 'react';
 import {Form, Container, Row, Col} from 'react-bootstrap';
-
+import Shake from 'react-reveal/Shake';
 import "./contact.css";
 import phone from "../assets/phone.png";
 
@@ -56,9 +56,9 @@ const Contact = () => {
                 </Form>
                 </Col>
                 <Col>
-                    
+                    <Shake>
                         <img src={phone} alt="logo" />
-                    
+                    </Shake>
                 </Col>
             </Row>
             </Container>

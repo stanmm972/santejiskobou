@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Container} from 'react-bootstrap';
-
+import Slide from 'react-reveal/Fade';
 import pic4 from "../assets/pic4.jpg";
 import "./mission.css";
 
@@ -13,7 +13,7 @@ const Mission = () => {
             </div>
             <Row>
                 <Col sm={8} className='align-self-center'>
-                    
+                  <Slide left>
                         <blockquote class="blockquote py-5 text-muted">
                                 <p class="mb-0">
                                     " Les établissements québécois de la santé travaillent fort, et la
@@ -42,12 +42,12 @@ const Mission = () => {
                                     tranquillité d’esprit! "
                                 </p>
                             </blockquote>
-                    
+                    </Slide>
                 </Col>
                 <Col>
-                
+                    <Slide sm={4} right>
                         <img src={pic4} alt="logo" className='rounded'/>
-                    
+                    </Slide>   
                 </Col>
             </Row> 
             </Container>
