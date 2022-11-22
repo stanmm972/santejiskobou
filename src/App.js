@@ -7,6 +7,7 @@ import Apropos from './components/Apropos';
 import Mission from './components/Mission';
 import Services from './components/Services';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         </Container>
         <Contact/>
       </main>
+      <Footer/>
     </>
   );
 }
