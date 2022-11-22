@@ -5,6 +5,7 @@ import Banner from './components/Banner';
 import {Container} from 'react-bootstrap';
 import Apropos from './components/Apropos';
 import Mission from './components/Mission';
+import Services from './components/Services';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
           <Apropos/>
         </Container>
         <Mission/>
+        <Container>
+            <Services/>
+        </Container>
       </main>
     </>
   );
