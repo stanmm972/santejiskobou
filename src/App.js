@@ -6,6 +6,7 @@ import {Container} from 'react-bootstrap';
 import Apropos from './components/Apropos';
 import Mission from './components/Mission';
 import Services from './components/Services';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Container>
             <Services/>
         </Container>
+        <Contact/>
       </main>
     </>
   );
