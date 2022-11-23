@@ -97,7 +97,7 @@ const Services = () => {
                                 <Card.Text>
                                     Vous pouvez remplir notre formulaire d'emploi et nous le renvoyer
                                     par courriel à: 
-                                    <Nav.Link href="mailto:rh@santejiskobou.com">rh@santejiskobou.com</Nav.Link>
+                                    <Nav.Link href="mailto:info@santejiskobou.com">info@santejiskobou.com</Nav.Link>
                                     <br/>
                                     <p>
                                         <a href="tel:+1-438-337-3037"><i class="fa-solid fa-phone-volume"> (438)337-3037</i></a>
