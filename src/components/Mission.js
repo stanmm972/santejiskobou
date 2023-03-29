@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col, Container} from 'react-bootstrap';
 import Slide from 'react-reveal/Fade';
-import pic4 from "../assets/pic4.jpg";
+import pic8 from "../assets/pic8.jpg";
 import "./mission.css";
 
 const Mission = () => {
@@ -46,7 +46,7 @@ const Mission = () => {
                 </Col>
                 <Col>
                     <Slide sm={4} right>
-                        <img src={pic4} alt="logo" className='rounded'/>
+                        <img src={pic8} alt="logo" className='rounded'/>
                     </Slide>   
                 </Col>
             </Row> 

@@ -2,7 +2,6 @@ import React from 'react'
 import {Card, CardGroup, Row, Col, Button, Nav} from 'react-bootstrap';
 import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
-import Flip from 'react-reveal/Flip';
 import Pdf from "../documents/formulaire_d_emploi.pdf";
 import photo3 from "../assets/photo3.png";
 import photo4 from "../assets/photo4.png";
@@ -89,7 +88,7 @@ const Services = () => {
                 </div>
                 <Row>
                     <Col>
-                        <Flip top>
+                        
                             <Card border="dark" style={{ width: '18rem' }}>
                                 <Card.Header>Débutez une carrière chez Santé Jiskobou</Card.Header>
                                 <Card.Body>
@@ -106,10 +105,10 @@ const Services = () => {
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
-                        </Flip>
+                        
                     </Col>
                     <Col>
-                        <Flip>
+                        
                             <Card border="dark" style={{ width: '18rem' }}>
                                 <Card.Header className='text-center'>Vous êtes déjà un membre</Card.Header>
                                 <Card.Body>
@@ -118,7 +117,7 @@ const Services = () => {
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
-                        </Flip>
+                    
                     </Col>
                 </Row>
             </div>

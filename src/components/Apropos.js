@@ -38,7 +38,7 @@ const Apropos = () => {
                         <Alert variant="secondary">
                         <Alert.Heading>Bienvenue chez Santé Jiskobou</Alert.Heading>
                         <p>
-                        Je m'appelle Tamara et je suis la fondatrice de Santé Jiskobou. Nous sommes une équipe motivée qui à pour mission d’offrir un
+                                    Nous sommes une équipe motivée qui à pour mission d’offrir un
                                     service hors-pair aux hôpitaux, CHSLD, entreprises et particuliers
                                     sur tout l’île de Montréal et ses environs, en vous déléguant un de
                                     nos associés dûment qualifiés et expérimentés.  

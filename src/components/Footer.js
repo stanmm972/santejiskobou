@@ -22,6 +22,7 @@ const Footer = () => {
             <Nav.Link href='mailto:info@santejiskobou.com'><i class="fa-solid fa-envelope"> info@santejiskobou.com</i></Nav.Link>
             <Nav.Link href="#"className='icon'><i class="fa-brands fa-facebook"></i></Nav.Link>
             <Nav.Link href="#" className='icon'><i class="fa-brands fa-instagram"></i></Nav.Link>
+            <p>Numéro du permis: AP-2101798</p>
             <p>Copyright@{getCurrentYear()} | Developed by FredMM</p>
           </div>
         </div>
